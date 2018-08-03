@@ -4,11 +4,12 @@ A simple python 2.7 script I wrote so I may send [Monit](https://mmonit.com/moni
 
 ## Python Libraries
 
-Of course, you will require the [python-telegram-bot](https://python-telegram-bot.org/) library to use Telegram, the other 2 libraries (os and logging) used in the script are standard.
+You will require the [python-telegram-bot](https://python-telegram-bot.org/) library to use Telegram, the other 2 libraries (os and logging) used in the script are standard.
 
 ## Telegram Bot
 
 You will need to create a Telegram bot and edit the python script to add your personal token and chatid.
+
 Details on how to create a bot [here](https://core.telegram.org/bots#creating-a-new-bot).
 
 ## Description
