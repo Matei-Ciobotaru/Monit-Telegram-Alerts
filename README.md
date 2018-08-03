@@ -18,7 +18,7 @@
 
  By default, Monit uses a set of environment variables to store details of the alert which it sends via email.
  This script grabs the output of the aformentioned variables, formats them for readability and sends them via Telegram.
- It also writes its output in Monit's defautlt log ('/var/log/monit.log') using the same format for debugging purposes.
+ It also writes its output in Monit's default log ('/var/log/monit.log') using the same format for debugging purposes.
 
 **monitrc**<br>
 
