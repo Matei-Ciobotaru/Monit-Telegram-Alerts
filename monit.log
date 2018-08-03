@@ -1,98 +1,11 @@
-[EEST Aug  3 00:17:03] info     : Awakened by the SIGHUP signal
-Reinitializing Monit - Control file '/etc/monit/monitrc'
-[EEST Aug  3 00:17:03] info     : 'pisky' Monit reloaded
-[EEST Aug  3 10:32:23] error    : 'ING_BOT' process is not running
-[EEST Aug  3 10:32:23] info     : 'ING_BOT' trying to restart
-[EEST Aug  3 10:32:23] info     : 'ING_BOT' start: '/bin/systemctl start bot_ing'
-[EEST Aug  3 10:33:24] error    : 'ING_BOT' service restarted 1 times within 1 cycles(s) - exec
-[EEST Aug  3 10:33:24] info     : 'ING_BOT' exec: '/usr/share/monit/monit_2_tg.py'
-[EEST Aug  3 10:33:24] error    : 'ING_BOT' process is not running
-[EEST Aug  3 10:33:24] info     : 'ING_BOT' trying to restart
-[EEST Aug  3 10:33:24] info     : 'ING_BOT' start: '/bin/systemctl start bot_ing'
-[EEST Aug  3 10:33:25] info     : Alert sent successfully via Telegram
-[EEST Aug  3 10:34:25] info     : 'ING_BOT' process is running with pid 3352
-[EEST Aug  3 10:34:25] info     : 'ING_BOT' process is running after previous restart timeout (manually recovered?)
-[EEST Aug  3 10:37:14] info     : 'ING_BOT' unmonitor on user request
-[EEST Aug  3 10:37:14] info     : Monit daemon with PID 19628 awakened
-[EEST Aug  3 10:37:14] info     : Awakened by User defined signal 1
-[EEST Aug  3 10:37:14] info     : 'ING_BOT' unmonitor action done
-[EEST Aug  3 10:37:21] info     : 'ING_BOT_LOG' unmonitor on user request
-[EEST Aug  3 10:37:21] info     : Monit daemon with PID 19628 awakened
-[EEST Aug  3 10:37:21] info     : Awakened by User defined signal 1
-[EEST Aug  3 10:37:21] info     : 'ING_BOT_LOG' unmonitor action done
-[EEST Aug  3 11:16:24] info     : Monit daemon with pid [19628] stopped
-[EEST Aug  3 11:16:24] info     : 'pisky' Monit 5.20.0 stopped
-[EEST Aug  3 11:16:24] info     : Starting Monit 5.20.0 daemon with http interface at [192.168.1.11]:2812
-[EEST Aug  3 11:16:24] info     : 'pisky' Monit 5.20.0 started
-[EEST Aug  3 11:16:47] info     : 'ING_BOT' monitor on user request
-[EEST Aug  3 11:16:47] info     : Monit daemon with PID 4545 awakened
-[EEST Aug  3 11:16:47] info     : Awakened by User defined signal 1
-[EEST Aug  3 11:16:47] info     : 'ING_BOT' monitor action done
-[EEST Aug  3 11:16:47] error    : 'ING_BOT' process is not running
-[EEST Aug  3 11:16:47] info     : 'ING_BOT' trying to restart
-[EEST Aug  3 11:16:47] info     : 'ING_BOT' start: '/bin/systemctl start bot_ing'
-[EEST Aug  3 11:16:49] info     : 'ING_BOT_LOG' monitor on user request
-[EEST Aug  3 11:16:49] info     : Monit daemon with PID 4545 awakened
-[EEST Aug  3 11:17:48] error    : 'ING_BOT' failed to start (exit status 0) -- no output
-[EEST Aug  3 11:17:48] info     : 'ING_BOT_LOG' monitor action done
-[EEST Aug  3 11:17:48] info     : Awakened by User defined signal 1
-[EEST Aug  3 11:17:48] error    : 'ING_BOT' service restarted 1 times within 1 cycles(s) - exec
-[EEST Aug  3 11:17:48] info     : 'ING_BOT' exec: '/usr/share/monit/monit_2_tg.py'
-[EEST Aug  3 11:17:48] error    : 'ING_BOT' process is not running
-[EEST Aug  3 11:17:48] info     : 'ING_BOT' trying to restart
-[EEST Aug  3 11:17:48] info     : 'ING_BOT' start: '/bin/systemctl start bot_ing'
-[EEST Aug  3 11:17:54] error    : Unable to send alert, Telegram error: Timed out
-[EEST Aug  3 11:18:50] error    : 'ING_BOT' failed to start (exit status 0) -- no output
-[EEST Aug  3 11:18:50] error    : 'ING_BOT_LOG' content match:
-2018-08-03 10:53:25,467 [ERROR]: An uncaught error was raised while processing the update at line: 301 (func: "process_update")
-2018-08-03 11:00:48,192 [WARNING]: Exiting immediately! at line: 495 (func: "signal_handler")
-
-[EEST Aug  3 11:18:50] info     : 'ING_BOT_LOG' trying to restart
-[EEST Aug  3 11:18:50] info     : 'ING_BOT_LOG' stop: '/bin/bash -c /bin/systemctl stop bot_ing && sleep 15'
-[EEST Aug  3 11:19:05] info     : 'ING_BOT_LOG' start: '/bin/systemctl start bot_ing''
-[EEST Aug  3 11:20:06] error    : 'ING_BOT' process is not running
-[EEST Aug  3 11:20:06] info     : 'ING_BOT' trying to restart
-[EEST Aug  3 11:20:06] info     : 'ING_BOT' start: '/bin/systemctl start bot_ing'
-[EEST Aug  3 11:20:49] error    : 'ING_BOT' failed to start (exit status 0) -- no output
-[EEST Aug  3 11:20:50] info     : Monit daemon with pid [4545] stopped
-[EEST Aug  3 11:20:50] info     : 'pisky' Monit 5.20.0 stopped
-[EEST Aug  3 11:20:50] info     : Starting Monit 5.20.0 daemon with http interface at [192.168.1.11]:2812
-[EEST Aug  3 11:20:50] info     : 'pisky' Monit 5.20.0 started
-[EEST Aug  3 11:20:50] error    : 'ING_BOT' service restarted 3 times within 3 cycles(s) - unmonitor
-[EEST Aug  3 11:20:50] error    : 'ING_BOT_LOG' service restarted 1 times within 1 cycles(s) - exec
-[EEST Aug  3 11:20:50] info     : 'ING_BOT_LOG' exec: '/usr/share/monit/monit_2_tg.py'
-[EEST Aug  3 11:20:54] info     : Alert sent successfully via Telegram
-[EEST Aug  3 11:21:54] info     : 'ING_BOT' monitor on user request
-[EEST Aug  3 11:21:54] info     : Monit daemon with PID 4833 awakened
-[EEST Aug  3 11:21:54] info     : Awakened by User defined signal 1
-[EEST Aug  3 11:21:54] info     : 'ING_BOT' monitor action done
-[EEST Aug  3 11:21:54] error    : 'ING_BOT' process is not running
-[EEST Aug  3 11:21:54] info     : 'ING_BOT' trying to restart
-[EEST Aug  3 11:21:54] info     : 'ING_BOT' start: '/bin/systemctl start bot_ing'
-[EEST Aug  3 11:22:56] error    : 'ING_BOT' failed to start (exit status 0) -- no output
-[EEST Aug  3 11:23:56] error    : 'ING_BOT' service restarted 1 times within 1 cycles(s) - exec
-[EEST Aug  3 11:23:56] info     : 'ING_BOT' exec: '/usr/share/monit/monit_2_tg.py'
-[EEST Aug  3 11:23:56] error    : 'ING_BOT' process is not running
-[EEST Aug  3 11:23:56] info     : 'ING_BOT' trying to restart
-[EEST Aug  3 11:23:56] info     : 'ING_BOT' start: '/bin/systemctl start bot_ing'
-[EEST Aug  3 11:23:57] info     : Alert sent successfully via Telegram
-[EEST Aug  3 11:24:58] error    : 'ING_BOT' failed to start (exit status 0) -- no output
-[EEST Aug  3 11:25:54] info     : Monit daemon with pid [4833] stopped
-[EEST Aug  3 11:25:54] info     : 'pisky' Monit 5.20.0 stopped
-[EEST Aug  3 11:25:55] info     : Starting Monit 5.20.0 daemon with http interface at [192.168.1.11]:2812
-[EEST Aug  3 11:25:55] info     : 'pisky' Monit 5.20.0 started
-[EEST Aug  3 11:32:58] error    : 'ING_BOT_LOG' content match:
-2018-08-03 11:32:09,088 [ERROR]: An uncaught error was raised while processing the update at line: 301 (func: "process_update")
-
-[EEST Aug  3 11:32:58] info     : 'ING_BOT_LOG' trying to restart
-[EEST Aug  3 11:32:58] info     : 'ING_BOT_LOG' stop: '/bin/systemctl stop bot_ing'
-[EEST Aug  3 11:32:58] info     : 'ING_BOT_LOG' start: '/bin/systemctl start bot_ing'
-[EEST Aug  3 11:33:59] error    : 'ING_BOT_LOG' service restarted 1 times within 1 cycles(s) - exec
-[EEST Aug  3 11:33:59] info     : 'ING_BOT_LOG' exec: '/usr/share/monit/monit_2_tg.py'
-[EEST Aug  3 11:33:59] info     : 'ING_BOT_LOG' content doesn't match
-[EEST Aug  3 11:34:00] info     : Alert sent successfully via Telegram
-[EEST Aug  3 12:53:22] error    : Invalid argument -- help  (-h will show valid arguments)
-[EEST Aug  3 12:55:15] info     : Monit daemon with pid [5045] stopped
-[EEST Aug  3 12:55:15] info     : 'pisky' Monit 5.20.0 stopped
 [EEST Aug  3 12:55:26] info     : Starting Monit 5.20.0 daemon with http interface at [192.168.1.11]:2812
 [EEST Aug  3 12:55:26] info     : 'pisky' Monit 5.20.0 started
+[EEST Aug  3 14:41:23] error    : 'OpenVPN' process is not running
+[EEST Aug  3 14:41:23] info     : 'OpenVPN' trying to restart
+[EEST Aug  3 14:41:23] info     : 'OpenVPN' start: '/bin/systemctl start openvpn'
+[EEST Aug  3 14:42:23] error    : 'OpenVPN' service restarted 1 times within 1 cycles(s) - exec
+[EEST Aug  3 14:42:23] info     : 'OpenVPN' exec: '/usr/share/monit/monit_2_tg.py'
+[EEST Aug  3 14:42:23] info     : 'OpenVPN' process is running with pid 7446
+[EEST Aug  3 14:42:23] info     : 'OpenVPN' process is running after previous restart timeout (manually recovered?)
+[EEST Aug  3 14:42:24] info     : Alert sent successfully via Telegram
+
