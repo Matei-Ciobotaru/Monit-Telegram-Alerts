@@ -26,4 +26,4 @@ It also writes its output in Monit's defautlt log ('/var/log/monit.log') using t
 
 **monit.log**<br>
 
- An extract of the Monit log containing the Telegram alert script lines.
+ An extract of the Monit log containing a Telegram alert script entry on the last line line.
