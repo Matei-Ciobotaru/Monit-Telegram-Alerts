@@ -26,4 +26,4 @@
 
 **monit.log**<br>
 
- An extract of the Monit log containing a Telegram alert script entry on the last line line.
+ An extract of the Monit log containing a Telegram alert script entry.
