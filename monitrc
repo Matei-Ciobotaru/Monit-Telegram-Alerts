@@ -3,11 +3,11 @@
   check process OpenVPN with pidfile /var/run/openvpn/server.pid
     start program = "/bin/systemctl start openvpn" with timeout 60 seconds
     stop program  = "/bin/systemctl stop openvpn"
-    if cpu > 60% for 2 cycles then exec "/usr/share/monit/monit_2_telegram.py"
+    if cpu > 60% for 2 cycles then exec "/usr/share/monit/monit_alert.py"
     if cpu > 80% for 5 cycles then restart
     if totalmem > 300.0 MB for 5 cycles then restart
     if loadavg(5min) greater than 6 for 8 cycles then stop
-    if 1 restart within 1 cycle then exec "/usr/share/monit/monit_2_telegram.py"
+    if 1 restart within 1 cycle then exec "/usr/share/monit/monit_alert.py"
     if 3 restarts within 5 cycles then unmonitor
     group server
 

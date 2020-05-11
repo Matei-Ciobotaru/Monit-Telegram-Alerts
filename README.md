@@ -1,20 +1,20 @@
 # Sending Monit alerts via Telegram
 
- A simple python 2.7 script I wrote so I may send [Monit](https://mmonit.com/monit/) alerts via Telegram.
+ A simple python script I wrote so I may send [Monit](https://mmonit.com/monit/) alerts via Telegram.
 
 ## Python Libraries
 
- You will require the [python-telegram-bot](https://python-telegram-bot.org/) library to use Telegram, the other 2 libraries (os and logging) used in the script are standard.
+ You will require the [python-telegram-bot](https://python-telegram-bot.org/) library to use Telegram.
 
 ## Telegram Bot
 
- You will need to create a Telegram bot and edit the python script to add your personal token and chatid.
+ You will need to create a Telegram bot and edit the python script to add your personal BOT_TOKEN and CHAT_ID.
 
  Details on how to create a bot [here](https://core.telegram.org/bots#creating-a-new-bot).
 
 ## Description
 
-**monit_2_telegram.py**<br>
+**monit_alert.py**<br>
 
  By default, Monit uses a set of environment variables to store details of the alert which it sends via email.
  This script grabs the output of the aformentioned variables, formats them for readability and sends them via Telegram.
