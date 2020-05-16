@@ -29,4 +29,5 @@
  An extract of the Monit log containing a Telegram alert script entry.
 
 ## Example Telegram alert
-![img](https://i.imgur.com/JOztEqF.jpg)
+
+<img src="https://i.imgur.com/JOztEqF.jp" height="400" width="400">
