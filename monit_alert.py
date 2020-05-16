@@ -42,7 +42,7 @@ def alert_message(alert_fields):
     Obtain Monit alert details via environment variables
     """
 
-    header = '<b>*** MONIT ALERT ***\n\n</b>'
+    header = '🔔 <b>MONIT ALERT</b> 🔔\n\n'
     message_lines = []
 
     for field in alert_fields:
