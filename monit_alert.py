@@ -26,7 +26,7 @@ logging.addLevelName(logging.ERROR, 'error')
 
 logging.basicConfig(filename=LOG_FILE,
                     format='[%(asctime)s] %(levelname)-9s: %(message)s',
-                    datefmt="%Z %b  %-d %H:%M:%S", level=logging.INFO)
+                    datefmt="%FT%X%z", level=logging.INFO)
 
 # Monit alert bot info
 BOT_TOKEN = 'YOUR_SECRET_BOT_TOKEN'
